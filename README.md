@@ -41,7 +41,7 @@ The model demonstrates "semantic reasoning." In the case below (Head CT), when t
 Query: *"Spine"*
 Result: The model successfully retrieved X-ray and MRI scans of the spine from the database, ranking them as the Top-3 matches.
 
-![Retrieval Demo](3.jpg)
+![Retrieval Demo](3.png)
 
 ### 5. Stress Test (Random Sampling)
 
