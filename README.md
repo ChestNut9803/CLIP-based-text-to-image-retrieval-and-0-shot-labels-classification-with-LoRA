@@ -8,7 +8,7 @@ This project implements a parameter-efficient fine-tuning (PEFT) approach to ada
 
 
 ## How to view the code?
-Because there is some errors happened in the rendering of Github, so please just download the "CLIP(LoRA)medical.ipynb"
+Because there are some errors happened in the rendering of Github, so please just download the "CLIP(LoRA)medical.ipynb"
 
 ## Key Features
 
