@@ -6,6 +6,10 @@ This project implements a parameter-efficient fine-tuning (PEFT) approach to ada
 
 本项目实现了基于 LoRA 的 CLIP 模型微调，旨在将通用多模态模型适配于医学影像领域。通过在 ROCO 数据集上的训练，模型实现了精准的**医学零样本分类**和**以文搜图**功能。
 
+
+## How to view the code?
+Because there is some errors happened in the rendering of Github, so please just download the "CLIP(LoRA)medical.ipynb"
+
 ## Key Features
 
 * **Efficient Training:** Fine-tuned <1% of parameters using LoRA, reducing Training Loss from **2.2 to 0.3**.
