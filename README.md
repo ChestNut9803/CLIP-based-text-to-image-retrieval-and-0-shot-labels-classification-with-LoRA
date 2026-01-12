@@ -30,23 +30,21 @@ The model showed rapid convergence. The contrastive loss dropped significantly, 
 
 We evaluated the retrieval performance on a held-out subset. The model achieved competitive recall rates, significantly outperforming random baselines.
 
-![Retrieval Metrics](images/image_cc0e0b.png)
-
 ### 3. Zero-Shot Medical Diagnosis
 
 The model demonstrates "semantic reasoning." In the case below (Head CT), when the explicit label was provided, it hit **100% confidence**. Even without the exact label, it correctly associated the skull features with "Broken Bone" (96%) rather than unrelated organs like Lungs.
 
-![Zero Shot Diagnosis](images/image_c872ae.png)
-
+![Zero Shot Diagnosis](1.png)
+![Zero Shot Diagnosis](2.png)
 ### 4. Text to Image Retrieval
 
 Query: *"Spine"*
 Result: The model successfully retrieved X-ray and MRI scans of the spine from the database, ranking them as the Top-3 matches.
 
-![Retrieval Demo](images/image_c8dfcc.jpg)
+![Retrieval Demo](3.jpg)
 
 ### 5. Stress Test (Random Sampling)
 
 Evaluated on random samples with 20+ mixed candidate labels (Modality + Anatomy + Pathology). The model consistently ranked the Ground Truth label within the Top-5 predictions despite heavy distractions.
 
-![Stress Test](images/image_c95b52.png)
+
